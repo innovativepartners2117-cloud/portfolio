@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M. Wusam Ali — Portfolio</title>
+  <meta name="description" content="Portfolio of M. Wusam Ali — Software Engineer and full-stack developer. Projects, experience, skills, and contact." />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#home" aria-label="Home">
+  <img src="img/profile.jpg" alt="M. Wusam Ali" class="logo-img" />
+  <b class="accent">M. Wusam Ali</b>
+</a>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certs">Certs</a></li>
+        <li><a href="#contact" class="pill">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <div class="eyebrow">Software Engineer • Full-Stack • SMM</div>
+        <h1>Shipping reliable software and modern web experiences.</h1>
+        <p class="muted">
+          Software Engineering student (UIT 2021–2025) with 5+ years across frontend, backend, databases, WordPress, graphic/video design and social media marketing.
+        </p>
+        <div class="cta">
+          <a href="img/resume.pdf" target="_blank" class="btn">Download Resume</a>
+          <a href="#projects" class="btn ghost">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-media reveal">
+        <img src="img/profile.jpg" alt="M. Wusam Ali" class="avatar"/>
+        <div class="hero-badges">
+          <span class="tag">Python • Flask</span>
+          <span class="tag">JS • React</span>
+          <span class="tag">MySQL • Postgres</span>
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About</h2>
+      <p class="reveal">
+        I’m a hands-on developer who enjoys turning ideas into products — from
+        clean, responsive UIs to API-driven backends and data-aware features.
+        I also bring design (Canva/Figma/Photoshop), video editing, and digital
+        marketing experience to create end-to-end solutions that perform well
+        and grow audiences.
+      </p>
+
+      <div class="about-grid reveal">
+        <div>
+          <h3>Education</h3>
+          <ul class="timeline">
+            <li><b>BS Software Engineering</b>, UIT University (2021–2025)</li>
+            <li><b>Intermediate (Pre-Engineering)</b>, NCR-CET (2019–2021)</li>
+            <li><b>Matriculation (O’Levels)</b>, Little Folks Paradise Cambridge School</li>
+          </ul>
+        </div>
+        <div>
+          <h3>What I do</h3>
+          <ul class="bullets">
+            <li>Frontend (HTML, CSS, JavaScript, React)</li>
+            <li>Backend (Python/Flask, PHP, Java)</li>
+            <li>Databases (MySQL, Postgres, Oracle, SQLite)</li>
+            <li>WordPress (themes, plugins, WooCommerce, SEO)</li>
+            <li>Design (Canva, Figma, Photoshop) & Video (CapCut, Filmora, Camtasia)</li>
+            <li>SMM & Digital Marketing (IG/FB/TikTok/YouTube, Ads, SEO basics)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+
+      <div class="experience-grid">
+        <article class="xp-card reveal">
+          <header>
+            <h3>Web & WordPress Developer</h3>
+            <span class="muted">VR Assistants • Mar 2025 – Present</span>
+          </header>
+          <p>Custom themes/plugins, performance optimization, responsive builds, task coordination and delivery.</p>
+        </article>
+
+        <article class="xp-card reveal">
+          <header>
+            <h3>Web & Software Developer (Freelance)</h3>
+            <span class="muted">Nov 2021 – Jun 2025</span>
+          </header>
+          <p>Delivered responsive, SEO-friendly sites and apps for education, salon and personal brands using HTML/CSS/JS and Python on backend.</p>
+        </article>
+
+        <article class="xp-card reveal">
+          <header>
+            <h3>Project Manager / Team Lead (Academic)</h3>
+            <span class="muted">Feb 2022 – Jun 2025</span>
+          </header>
+          <p>Led planning, sprints and delivery across multiple software projects; collaborated with cross-functional teammates.</p>
+        </article>
+
+        <article class="xp-card reveal">
+          <header>
+            <h3>WordPress Developer (Freelance)</h3>
+            <span class="muted">Oct 2021 – May 2025</span>
+          </header>
+          <p>End-to-end WordPress builds with Elementor/WPBakery, WooCommerce, custom CSS/PHP and integrations.</p>
+        </article>
+
+        <article class="xp-card reveal">
+          <header>
+            <h3>Social Media Manager / Digital Marketing / Graphic & Video</h3>
+            <span class="muted">Aug 2023 – Apr 2025</span>
+          </header>
+          <p>Managed brand presence, content design, ads and video production for multiple clients.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+
+      <div class="filters reveal" role="tablist">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="web">Web</button>
+        <button class="chip" data-filter="app">Apps</button>
+        <button class="chip" data-filter="wp">WordPress</button>
+      </div>
+
+      <div id="gallery" class="grid cards">
+        <article class="card reveal" data-category="app">
+          <div class="card-body">
+            <h3>Smart Study Planner (FYP)</h3>
+            <p>AI study planner with PDF/text input for quiz & timetable generation. Stack: HTML, CSS, JS, Python, Flask.</p>
+            <div class="tags"><span>Flask</span><span>AI</span><span>Pandas</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="web">
+          <div class="card-body">
+            <h3>E-commerce Store</h3>
+            <p>Interactive store with cart and product UI using HTML, CSS, JavaScript.</p>
+            <div class="tags"><span>JS</span><span>UI</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="app">
+          <div class="card-body">
+            <h3>Bank Management System</h3>
+            <p>Secure Python app handling core banking flows.</p>
+            <div class="tags"><span>Python</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="web">
+          <div class="card-body">
+            <h3>Caps Production System</h3>
+            <p>Inventory tool using HTML, JS, Python.</p>
+            <div class="tags"><span>Inventory</span><span>Python</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="wp">
+          <div class="card-body">
+            <h3>Client WordPress Sites</h3>
+            <p>TBS School, Salon, Army PMA and more — custom themes, SEO and payments.</p>
+            <div class="tags"><span>WordPress</span><span>Woo</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-category="web">
+          <div class="card-body">
+            <h3>Electronics & E-Learning</h3>
+            <p>React + MySQL e-commerce and Java + MySQL LMS.</p>
+            <div class="tags"><span>React</span><span>Java</span><span>MySQL</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="skills-grid reveal">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">Python</span>
+        <span class="skill">Flask</span>
+        <span class="skill">PHP</span>
+        <span class="skill">Java</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">PostgreSQL</span>
+        <span class="skill">Oracle</span>
+        <span class="skill">SQLite</span>
+        <span class="skill">WordPress</span>
+        <span class="skill">SEO</span>
+        <span class="skill">Figma</span>
+        <span class="skill">Photoshop</span>
+        <span class="skill">Canva</span>
+        <span class="skill">CapCut</span>
+        <span class="skill">Filmora</span>
+        <span class="skill">Camtasia</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certs" class="section">
+    <div class="container narrow">
+      <h2 class="section-title reveal">Certifications</h2>
+      <ul class="bullets reveal">
+        <li>Advance Diploma in IT — ITBW (Dec 2022)</li>
+        <li>Leadership & Management Fundamentals — Udemy / Hains Academy (Mar 2025)</li>
+        <li>Machine Learning with Python — Udemy (Nov 2022)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+
+      <div class="contact-grid reveal">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <a href="mailto:wusamali2117@gmail.com">wusamali2117@gmail.com</a>
+        </div>
+
+        <div class="contact-card">
+          <h3>Phone</h3>
+          <a href="tel:+923112426162">+92 311 2426162</a>
+        </div>
+
+        <div class="contact-card">
+          <h3>LinkedIn</h3>
+          <a target="_blank" href="https://www.linkedin.com/in/wusam-ali-a44916255/">linkedin.com/in/wusam-ali</a>
+        </div>
+
+        <div class="contact-card">
+          <h3>Location</h3>
+          <p>Karachi, Pakistan</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Resume</h3>
+          <a class="btn" href="img/resume.pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <span>© <span id="yr"></span> M. Wusam Ali</span>
+      <a href="#home" class="tag">Back to top</a>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-modal="true" role="dialog" aria-label="Project preview">
+    <div class="lightbox-inner">
+      <img id="lbImg" alt="Preview" />
+      <div class="lb-nav">
+        <button id="prev" class="lb-btn" aria-label="Prev">❮</button>
+        <button id="next" class="lb-btn" aria-label="Next">❯</button>
+        <button id="close" class="lb-btn lb-close" aria-label="Close">✕</button>
+      </div>
+      <div id="lbCap" class="lb-caption"></div>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
